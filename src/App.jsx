@@ -11,6 +11,7 @@ import GalleryHome from "./components/GalleryHome";
 import SchoolGallery from "./components/SchoolGallery";
 import Achievements from "./components/Achievements";
 import Footer from "./components/Footer";
+import Testimonials from "./components/Testimonials";
 const App = () => {
   return (
     <Router>
@@ -34,6 +35,7 @@ const App = () => {
               element={<SchoolGallery />}
             ></Route>
             <Route path="/achievements" element={<Achievements />}></Route>
+            <Route path="/testimonials" element={<Testimonials />}></Route>
           </Routes>
         </main>
 
