@@ -9,6 +9,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import About from "./About";
 import Service from "./Services";
+import Courses from "./Courses";
 const Home = () => {
   useEffect(() => {
     AOS.init({
@@ -118,6 +119,12 @@ const Home = () => {
         className="hover:scale-105 transition-transform duration-500"
       >
         <Service />
+      </div>
+      <div
+        data-aos="fade-right"
+        className="hover:scale-105 transition-transform duration-500"
+      >
+        <Courses />
       </div>
      
     </>
