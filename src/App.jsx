@@ -7,6 +7,8 @@ import Services from "./components/Services";
 import WhyChooseUs from "./components/WhyChooseUs";
 import FutureRobotics from "./components/FutureRobotics";
 import Courses from "./components/Courses"
+import GalleryHome from "./components/GalleryHome";
+import SchoolGallery from "./components/SchoolGallery";
 import Footer from "./components/Footer";
 const App = () => {
   return (
@@ -25,6 +27,11 @@ const App = () => {
             <Route path="/services" element={<Services />} />
             <Route path="/courses" element={<Courses />} />
 
+            <Route path="/gallery" element={<GalleryHome />} />
+            <Route
+              path="/gallery/:schoolId"
+              element={<SchoolGallery />}
+            ></Route>
           </Routes>
         </main>
 
