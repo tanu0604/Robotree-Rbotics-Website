@@ -6,6 +6,7 @@ import About from "./components/About"
 import Services from "./components/Services";
 import WhyChooseUs from "./components/WhyChooseUs";
 import FutureRobotics from "./components/FutureRobotics";
+import Courses from "./components/Courses"
 import Footer from "./components/Footer";
 const App = () => {
   return (
@@ -18,10 +19,11 @@ const App = () => {
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} /> 
+            <Route path="/about" element={<About />} />
             <Route path="/future" element={<FutureRobotics />} />
             <Route path="/whychooseus" element={<WhyChooseUs />} />
             <Route path="/services" element={<Services />} />
+            <Route path="/courses" element={<Courses />} />
 
           </Routes>
         </main>
