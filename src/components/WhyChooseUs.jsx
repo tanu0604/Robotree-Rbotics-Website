@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import image from "../assets/wImages/WhyChoose.png";
+import image from "../assets/wImages/whyChoose.png";
 import AOS from "aos";
 import "aos/dist/aos.css"; // Don't forget to import the AOS CSS
 
