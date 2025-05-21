@@ -2,13 +2,14 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navigation from "./components/Navigation";
 import Home from "./components/Home";
-import About from "./components/About"
+import About from "./components/About";
 import Services from "./components/Services";
 import WhyChooseUs from "./components/WhyChooseUs";
 import FutureRobotics from "./components/FutureRobotics";
-import Courses from "./components/Courses"
+import Courses from "./components/Courses";
 import GalleryHome from "./components/GalleryHome";
 import SchoolGallery from "./components/SchoolGallery";
+import Achievements from "./components/Achievements";
 import Footer from "./components/Footer";
 const App = () => {
   return (
@@ -32,6 +33,7 @@ const App = () => {
               path="/gallery/:schoolId"
               element={<SchoolGallery />}
             ></Route>
+            <Route path="/achievements" element={<Achievements />}></Route>
           </Routes>
         </main>
 
