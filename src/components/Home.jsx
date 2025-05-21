@@ -12,6 +12,8 @@ import Service from "./Services";
 import Courses from "./Courses";
 import GalleryHome from "./GalleryHome";
 import Achievements from "./Achievements";
+import Testimonials from "./Testimonials";
+
 const Home = () => {
   useEffect(() => {
     AOS.init({
@@ -141,6 +143,13 @@ const Home = () => {
         className="hover:scale-105 transition-transform duration-500"
       >
         <Achievements />
+      </div>
+
+        <div
+        data-aos="fade-right"
+        className="hover:scale-105 transition-transform duration-500"
+      >
+        <Testimonials />
       </div>
      
     </>
